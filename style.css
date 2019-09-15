@@ -1,0 +1,127 @@
+body{
+    background-color: #f6f6f6;
+}
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: Arial;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+div#white{
+    background-color: white;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+div#white2{
+    background-color: white;
+    margin: 0px;
+}
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+
+}
+
+#form{
+text-align: center;
+                
+}
+
+li{
+    display: inline;
+    justify-content: space-between;
+}
+
+li > a{
+    outline: none;
+    text-decoration: none;
+    display: inline;     /* quero que flua como texto, não um em cada linha como no block, mas tbm quero poder definir seu tamanho! */
+    width: 19.5%;
+    text-align: center;
+    line-height: 3;
+    color: blue;
+}
+
+img{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+button#cadastro{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 90px 5px 90px; 
+    background-color: #3897F0;
+    color: white;
+    font-size: 16px;
+    text-decoration: 
+}
+
+button#facebook{
+    padding: 5px 45px 5px 45px; 
+    background-color: #3897F0;
+    color: white;
+    font-size: 16px;
+    text-decoration: 
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: #f6f6f6;
+    padding: 10px 85px 10px 10px;
+    text-align-last: left;
+    margin-top: 2px;
+}
+
+#conecte{
+    color: blue;
+}
